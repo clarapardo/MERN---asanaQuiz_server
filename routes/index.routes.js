@@ -68,7 +68,11 @@ router.get('/randomNames/:id', (req, res, next) => {
       { $match: { _id: { $ne: new mongoose.Types.ObjectId(id) } } },
       { $sample: { size: 3 } },
       { $project: { nameSanskrit: 1, _id: 0 } }])
-    .then(results => res.status(200).json(results))
+    .then(results => {
+      let names = []
+      results.map(elm => names.push(elm.nameSanskrit))
+      res.status(200).json(names)
+    })
     .catch(err => res.status(500).json(err))
 
 })
