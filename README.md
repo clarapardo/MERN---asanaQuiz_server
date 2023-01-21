@@ -1,9 +1,10 @@
 ## asana quiz
 ### MERN stack
 
-Check it out [here](https://asanaquiz.onrender.com/).
+Check it out [here](https://asanaquiz.onrender.com/).  
+*... it might take a bit for the server to wake up* 😅
 
-The aim of this project was purely personal tbh... but it helped to practice a bit more programming as well ;)
+The aim of this project was purely personal tbh... but it helped to practice a bit more programming as well ;)  
 As a new yoga teacher, I'm finding it difficult to learn all the poses (more than 200!) in Sanskrit. So instead of making the traditional hand-written cards to learn them, I developed a quiz app to make it more fun :)
 <br>
 
